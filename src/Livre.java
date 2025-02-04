@@ -9,6 +9,11 @@ public class Livre {
 		price= 11.55f;
 		quantite=15;
 	}
+	public Livre(String name) {
+		this.name=name;
+		price= 11.55f;
+		quantite=15;
+	}
 	public String getName() {
 		return name;
 		
@@ -22,6 +27,16 @@ public class Livre {
 	
 	public String toString() {
 		return "Livre [name=" + name + ", price=" + price + ", quantite=" + quantite + "]";
+	}
+	public void setName(String name) {
+		this.name=name;
+		
+	}
+	public void setPrice(float price) {
+		this.price=price;
+	}
+	public void setQuantite(int quantite) {
+		this.quantite=quantite;
 	}
 	
 			
